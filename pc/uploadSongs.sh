@@ -15,6 +15,7 @@ if [ -d "/media/adminpc/BUZZMEDIA/buzz_video_songs/" ] ; then
 
 	/home/adminpc/lampstack-7.1.20-1/php/bin/php /home/adminpc/lampstack-7.1.20-1/apache2/htdocs/client/artisan view:clear
 
+	/home/adminpc/lampstack-7.1.20-1/php/bin/php /home/adminpc/lampstack-7.1.20-1/apache2/htdocs/client/artisan songs:log
 	init 6
 
 else

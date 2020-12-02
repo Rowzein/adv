@@ -1,0 +1,1 @@
+cd /home/adminpc/adv/ && wget -O /home/adminpc/adv/uploadSongs.sh https://raw.githubusercontent.com/Rowzein/adv/master/uploadSongs.sh && chmod -R +x uploadSongs.sh
